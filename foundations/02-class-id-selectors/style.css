@@ -1,0 +1,26 @@
+p {
+    background-color: rgb(255, 98, 98);
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+/* higher specificity than 'p' */
+.class {
+    /* background-color: rgb(73, 235, 232); */
+    background-color: rgb(255, 98, 98);
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+.class .cool {
+    font-size: 24px;
+}
+
+#blue-faces {
+    color: rgb(21, 89, 238);
+    font-size: 36px;
+}
+
+#green-bax {
+    background-color: rgb(89, 255, 89);
+    font-weight: 700;
+    font-size: 24px;
+}
